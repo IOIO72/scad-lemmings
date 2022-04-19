@@ -2,26 +2,43 @@
 
 by IOIO72 aka Tamio Patrick Honma (https://honma.de)
 
-This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
-
 ## Description
 
 We all love the game series Lemmings. So here they are ready to conquer your territory, well, if they survive.
+
+![Lemmings in action](Photos/20210619_190227.jpg)
+![Blocker Lemming](Photos/20210619_190237.jpg)
+![Climber Lemming](Photos/20210619_190252.jpg)
+![Walker Lemming](Photos/20210619_190233.jpg)
+![Shrug Lemming](Photos/20210619_190243.jpg)
+![Let's go!](20210619_190329.jpg)
 
 ## Customizer
 
 You can select a Lemming and change its sizes and bevels according to your personal preferences.
 
-### Use OpenSCAD
+![Blocker](Blocker.png)
+![Blocker without gaps](Blocker_without_Gaps.png)
+![Blocker with small bevels](Blocker_with_Small_Bevels.png)
+![Blocker without bevels](Blocker_without_Bevels.png)
+![Blocker with background](Blocker_with_Background.png)
+![Blocker with few fragments](Blocker_with_Few_Fragments.png)
+![Blocker with large bevels](Blocker_with_Large_Bevels.png)
+![Walker](Walker.png)
+![Walker with background](Walker_with_Background.png)
+![Climber](Climber.png)
+![Climber with background](Climber_with_Background.png)
+![Shrug](Shrug.png)
+![Shrug with background](Shrug_with_Background.png)
 
-As the Thingiverse customizer has some issues, it's better to use OpenSCAD instead.
+### Use OpenSCAD
 
 1. **Download and install:** [OpenSCAD](http://openscad.org/) version 2021.01 or newer
 2. **Download:** The *.scad file of this model.
 3. **Start** OpenSCAD and **open** the *.scad file in it.
 4. **Open the customizer** via the menu "Window/Customizer"
 
-Now you can configure the model.
+Now you can configure the model and use the `F5` key to render the preview of your changes.
 
 #### Export your STL file
 
@@ -39,4 +56,3 @@ If you like to use your configuration as a template for further models, it's a g
 2. Give your configuration a name.
 
 Use the drop-down menu to access your saved configurations.
-
