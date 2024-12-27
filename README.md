@@ -11,22 +11,22 @@ We all love the game series Lemmings. So here they are ready to conquer your ter
 This package includes
 
 * a **Lemmings customizer** (Lemmings.scad) to select a  Lemming and change its sizes and bevels according to your personal preferences.
-  ![](/Users/tamiohonma/Library/CloudStorage/GoogleDrive-tamio.honma@gmail.com/Meine Ablage/3D Drucker/Modelle/Self Made/Lemmings/Screenshots/Blocker_with_Background.png)
+  ![](Screenshots/Blocker_with_Background.png)
 
-  ![Blocker_with_Few_Fragments](/Users/tamiohonma/Library/CloudStorage/GoogleDrive-tamio.honma@gmail.com/Meine Ablage/3D Drucker/Modelle/Self Made/Lemmings/Screenshots/Blocker_with_Few_Fragments.png)
+  ![Blocker_with_Few_Fragments](Screenshots/Blocker_with_Few_Fragments.png)
 
-  ![Blocker_with_Large_Bevels](/Users/tamiohonma/Library/CloudStorage/GoogleDrive-tamio.honma@gmail.com/Meine Ablage/3D Drucker/Modelle/Self Made/Lemmings/Screenshots/Blocker_with_Large_Bevels.png)
+  ![Blocker_with_Large_Bevels](Screenshots/Blocker_with_Large_Bevels.png)
 
-  ![Blocker_with_Small_Bevels](/Users/tamiohonma/Library/CloudStorage/GoogleDrive-tamio.honma@gmail.com/Meine Ablage/3D Drucker/Modelle/Self Made/Lemmings/Screenshots/Blocker_with_Small_Bevels.png)
+  ![Blocker_with_Small_Bevels](Screenshots/Blocker_with_Small_Bevels.png)
 
-  ![Blocker_without_Bevels](/Users/tamiohonma/Library/CloudStorage/GoogleDrive-tamio.honma@gmail.com/Meine Ablage/3D Drucker/Modelle/Self Made/Lemmings/Screenshots/Blocker_without_Bevels.png)
+  ![Blocker_without_Bevels](Screenshots/Blocker_without_Bevels.png)
 
-  ![Blocker_without_Gaps](/Users/tamiohonma/Library/CloudStorage/GoogleDrive-tamio.honma@gmail.com/Meine Ablage/3D Drucker/Modelle/Self Made/Lemmings/Screenshots/Blocker_without_Gaps.png)
+  ![Blocker_without_Gaps](Screenshots/Blocker_without_Gaps.png)
 
-  ![Blocker](/Users/tamiohonma/Library/CloudStorage/GoogleDrive-tamio.honma@gmail.com/Meine Ablage/3D Drucker/Modelle/Self Made/Lemmings/Screenshots/Blocker.png)
+  ![Blocker](Screenshots/Blocker.png)
 
 * a **Lemmings.3mf** with **colored and monochrome** Lemmings and different print parameters to solve adhesion and quality issues.
-  ![Lemmings Print Plates](/Users/tamiohonma/Library/CloudStorage/GoogleDrive-tamio.honma@gmail.com/Meine Ablage/3D Drucker/Modelle/Self Made/Lemmings/Lemmings Print Plates.png)
+  ![Lemmings Print Plates](Lemmings Print Plates.png)
 
 * **3MF** and **STL** files for **each Lemming**.
 
