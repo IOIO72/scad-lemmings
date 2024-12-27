@@ -1,58 +1,59 @@
-# Lemmings
+# More Lemmings
 
 by IOIO72 aka Tamio Patrick Honma (https://honma.de)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
 ## Description
 
 We all love the game series Lemmings. So here they are ready to conquer your territory, well, if they survive.
 
-![Lemmings in action](Photos/20210619_190227.jpg)
-![Blocker Lemming](Photos/20210619_190237.jpg)
-![Climber Lemming](Photos/20210619_190252.jpg)
-![Walker Lemming](Photos/20210619_190233.jpg)
-![Shrug Lemming](Photos/20210619_190243.jpg)
-![Let's go!](20210619_190329.jpg)
+This package includes
 
-## Customizer
+* a **Lemmings customizer** (Lemmings.scad) to select a  Lemming and change its sizes and bevels according to your personal preferences.
+  ![](/Users/tamiohonma/Library/CloudStorage/GoogleDrive-tamio.honma@gmail.com/Meine Ablage/3D Drucker/Modelle/Self Made/Lemmings/Screenshots/Blocker_with_Background.png)
 
-You can select a Lemming and change its sizes and bevels according to your personal preferences.
+  ![Blocker_with_Few_Fragments](/Users/tamiohonma/Library/CloudStorage/GoogleDrive-tamio.honma@gmail.com/Meine Ablage/3D Drucker/Modelle/Self Made/Lemmings/Screenshots/Blocker_with_Few_Fragments.png)
 
-![Blocker](Blocker.png)
-![Blocker without gaps](Blocker_without_Gaps.png)
-![Blocker with small bevels](Blocker_with_Small_Bevels.png)
-![Blocker without bevels](Blocker_without_Bevels.png)
-![Blocker with background](Blocker_with_Background.png)
-![Blocker with few fragments](Blocker_with_Few_Fragments.png)
-![Blocker with large bevels](Blocker_with_Large_Bevels.png)
-![Walker](Walker.png)
-![Walker with background](Walker_with_Background.png)
-![Climber](Climber.png)
-![Climber with background](Climber_with_Background.png)
-![Shrug](Shrug.png)
-![Shrug with background](Shrug_with_Background.png)
+  ![Blocker_with_Large_Bevels](/Users/tamiohonma/Library/CloudStorage/GoogleDrive-tamio.honma@gmail.com/Meine Ablage/3D Drucker/Modelle/Self Made/Lemmings/Screenshots/Blocker_with_Large_Bevels.png)
 
-### Use OpenSCAD
+  ![Blocker_with_Small_Bevels](/Users/tamiohonma/Library/CloudStorage/GoogleDrive-tamio.honma@gmail.com/Meine Ablage/3D Drucker/Modelle/Self Made/Lemmings/Screenshots/Blocker_with_Small_Bevels.png)
 
-1. **Download and install:** [OpenSCAD](http://openscad.org/) version 2021.01 or newer
-2. **Download:** The *.scad file of this model.
-3. **Start** OpenSCAD and **open** the *.scad file in it.
-4. **Open the customizer** via the menu "Window/Customizer"
+  ![Blocker_without_Bevels](/Users/tamiohonma/Library/CloudStorage/GoogleDrive-tamio.honma@gmail.com/Meine Ablage/3D Drucker/Modelle/Self Made/Lemmings/Screenshots/Blocker_without_Bevels.png)
 
-Now you can configure the model and use the `F5` key to render the preview of your changes.
+  ![Blocker_without_Gaps](/Users/tamiohonma/Library/CloudStorage/GoogleDrive-tamio.honma@gmail.com/Meine Ablage/3D Drucker/Modelle/Self Made/Lemmings/Screenshots/Blocker_without_Gaps.png)
 
-#### Export your STL file
+  ![Blocker](/Users/tamiohonma/Library/CloudStorage/GoogleDrive-tamio.honma@gmail.com/Meine Ablage/3D Drucker/Modelle/Self Made/Lemmings/Screenshots/Blocker.png)
 
-If you're done with your model settings, you can export the STL file:
+* a **Lemmings.3mf** with **colored and monochrome** Lemmings and different print parameters to solve adhesion and quality issues.
+  ![Lemmings Print Plates](/Users/tamiohonma/Library/CloudStorage/GoogleDrive-tamio.honma@gmail.com/Meine Ablage/3D Drucker/Modelle/Self Made/Lemmings/Lemmings Print Plates.png)
 
-1. Render the mesh by pressing the `F6` key.
-2. Wait until the rendering is finished. This might take some minutes.
-3. Export the STL file by pressing the `F7` key.
+* **3MF** and **STL** files for **each Lemming**.
 
-#### Optionally save your configuration
+## Printing
 
-If you like to use your configuration as a template for further models, it's a good idea, to save your configuration:
+The adhesion to the plate may be too low for the pixel design. Therefore, either try to apply an additive to the plate or use a raft. If you want a higher quality, then you can iron the surfaces with the slicer.
 
-1. Click the `+` symbol in the customizer, which you find beside the configuration selector drop-down in the second line of the customizer.
-2. Give your configuration a name.
+The Lemmings.3mf file provides you with prepared plates for the cases described above.
 
-Use the drop-down menu to access your saved configurations.
+## Why "more" Lemmings?
+
+I have updated this pack to provide double the amount of Lemmings than before. In addition, I offer print-ready colour 3MF files that you can use with colour 3D printers, e.g. with an AMS.
+
+**New characters:**
+
+- Builder
+- Miner
+- Basher
+- Floater (first double height character)
+
+ 
+
+**Original set:**
+
+- Walker
+- Blocker
+- Shrug
+- Climber
+
+ 

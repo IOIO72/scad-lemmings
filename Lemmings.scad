@@ -9,7 +9,7 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 /* [Basic] */
 
 // Select the lemming
-figure = 0; // [0:"Blocker", 1:"Walker", 2:"Climber", 3:"Shrug"]
+figure = 0; // [0:"Blocker", 1:"Walker", 2:"Climber", 3:"Shrug", 4:"Miner", 5:"Basher", 6:"Builder", 100:"Floater"]
 
 // 1 = large bevel, 9 = small bevel, 10 = no bevel
 bevel_factor = 4; // [1:10]
@@ -36,6 +36,7 @@ bevel = (bevel_factor > 9) ? 0 : pixel_size * 1 / bevel_factor;
 gap = with_gaps ? bevel : 0;
 width = 8;
 height = 8;
+double_height_figures_start_index = 100;
 color_index_none = 0;
 color_index_skin = 1;
 color_index_hair = 2;
@@ -46,6 +47,9 @@ colors = [
   "#00a800", // hair
   "#2038ec" // dress
 ];
+
+
+// Figures
 
 figures = [
   [ // Blocker
@@ -376,8 +380,421 @@ figures = [
       color_index_none,
     ],
   ],
+  [ // Miner
+    [
+      color_index_none,
+      color_index_skin,
+      color_index_skin,
+      color_index_none,
+      color_index_none,
+      color_index_skin,
+      color_index_skin,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_dress,
+      color_index_dress,
+      color_index_none,
+      color_index_dress,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_dress,
+      color_index_dress,
+      color_index_dress,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_dress,
+      color_index_dress,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_skin,
+      color_index_none,
+      color_index_skin,
+      color_index_skin,
+      color_index_skin,
+      color_index_dress,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_skin,
+      color_index_skin,
+      color_index_skin,
+      color_index_hair,
+      color_index_skin,
+      color_index_skin,
+      color_index_skin,
+      color_index_none,
+    ],
+    [
+      color_index_skin,
+      color_index_skin,
+      color_index_none,
+      color_index_hair,
+      color_index_hair,
+      color_index_skin,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_skin,
+      color_index_skin,
+      color_index_none,
+      color_index_hair,
+      color_index_hair,
+      color_index_none,
+      color_index_none,
+    ],
+  ],
+  [ // Basher
+    [
+      color_index_none,
+      color_index_skin,
+      color_index_skin,
+      color_index_none,
+      color_index_none,
+      color_index_skin,
+      color_index_skin,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_dress,
+      color_index_dress,
+      color_index_none,
+      color_index_dress,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_dress,
+      color_index_dress,
+      color_index_dress,
+      color_index_skin,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_dress,
+      color_index_dress,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_skin,
+      color_index_skin,
+      color_index_skin,
+      color_index_dress,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_skin,
+      color_index_skin,
+      color_index_none,
+      color_index_hair,
+      color_index_skin,
+      color_index_skin,
+      color_index_skin,
+      color_index_none,
+    ],
+    [
+      color_index_skin,
+      color_index_skin,
+      color_index_none,
+      color_index_hair,
+      color_index_hair,
+      color_index_skin,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_hair,
+      color_index_hair,
+      color_index_none,
+      color_index_none,
+    ],
+  ],
+  [ // Builder
+    [
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_skin,
+      color_index_skin,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_dress,
+      color_index_none,
+      color_index_dress,
+      color_index_dress,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_dress,
+      color_index_dress,
+      color_index_none,
+      color_index_dress,
+      color_index_dress,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_skin,
+      color_index_dress,
+      color_index_none,
+      color_index_dress,
+      color_index_skin,
+      color_index_skin,
+      color_index_skin,
+      color_index_hair,
+    ],
+    [
+      color_index_hair,
+      color_index_hair,
+      color_index_dress,
+      color_index_dress,
+      color_index_dress,
+      color_index_none,
+      color_index_none,
+      color_index_hair,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_hair,
+      color_index_skin,
+      color_index_skin,
+      color_index_skin,
+      color_index_none,
+      color_index_hair,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_hair,
+      color_index_hair,
+      color_index_skin,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_hair,
+      color_index_hair,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+    ],
+  ],
 ];
 
+large_figures = [
+  [ // Floater
+    [
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_skin,
+      color_index_skin,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_dress,
+      color_index_dress,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_skin,
+      color_index_dress,
+      color_index_dress,
+      color_index_dress,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_skin,
+      color_index_none,
+      color_index_dress,
+      color_index_dress,
+      color_index_dress,
+      color_index_none,
+      color_index_skin,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_dress,
+      color_index_dress,
+      color_index_dress,
+      color_index_skin,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_dress,
+      color_index_dress,
+      color_index_dress,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_skin,
+      color_index_hair,
+      color_index_skin,
+      color_index_skin,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_skin,
+      color_index_hair,
+      color_index_skin,
+      color_index_hair,
+      color_index_hair,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_dress,
+      color_index_skin,
+      color_index_hair,
+      color_index_hair,
+      color_index_hair,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_dress,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_dress,
+      color_index_dress,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+    ],
+    [
+      color_index_skin,
+      color_index_skin,
+      color_index_hair,
+      color_index_skin,
+      color_index_hair,
+      color_index_skin,
+      color_index_hair,
+      color_index_skin,
+    ],
+    [
+      color_index_none,
+      color_index_skin,
+      color_index_skin,
+      color_index_skin,
+      color_index_skin,
+      color_index_skin,
+      color_index_skin,
+      color_index_none,
+    ],
+    [
+      color_index_none,
+      color_index_none,
+      color_index_none,
+      color_index_skin,
+      color_index_skin,
+      color_index_none,
+      color_index_none,
+      color_index_none,
+    ],
+  ],
+];
+
+
+// Modules
 
 module pixel(x, y, ci = color_index_none) {
   if (ci != color_index_none) {
@@ -404,13 +821,23 @@ module background() {
   };
 };
 
-module lemming(number = 0) {
-  for (row = [0 : height - 1]) {
+module lemming(number = 0, figures_array = figures) {
+  for (row = [0 : len(figures_array[number]) - 1]) {
     for (column = [0 : width - 1]) {
-      pixel(column, row, figures[number][row][column]);
+      pixel(column, row, figures_array[number][row][column]);
     };
   };
 };
 
-lemming(figure);
+
+// Main
+
+if (figure < double_height_figures_start_index) {
+  lemming(figure, figures);
+} else {
+  lemming(figure - double_height_figures_start_index, large_figures);
+  translate([0, height * pixel_size + gap * height - gap + 2 * bevel, 0]) {
+    background();
+  }
+}
 background();
