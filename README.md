@@ -56,4 +56,7 @@ I have updated this pack to provide double the amount of Lemmings than before. I
 - Shrug
 - Climber
 
- 
+# Related models
+
+* [Multiboard](https://www.multiboard.io/) shelves for Lemmings:
+  [Micro Shelves for Multiboard Pegboard & Multipoint](https://makerworld.com/de/models/1288463)
